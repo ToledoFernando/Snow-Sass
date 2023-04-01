@@ -1,0 +1,17 @@
+{
+  "name": "snow-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass index.scss index.css",
+    "dev": "nodemon -e scss -x \"sass index.scss:index.css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.60.0"
+  }
+}
